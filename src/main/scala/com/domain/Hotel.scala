@@ -1,4 +1,4 @@
-package mvctest.domain
+package com.domain
 
 import javax.persistence.Id
 import javax.persistence.GeneratedValue
@@ -19,11 +19,4 @@ class Hotel {
   @NotEmpty
   var name: String = _
 
-  @BeanProperty
-  @NotEmpty
-  var address: String = _
-
-  @BeanProperty
-  @NotEmpty
-  var zip: String = _
 }
