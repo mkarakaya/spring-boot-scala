@@ -8,15 +8,12 @@ import scala.beans.BeanProperty
 import org.hibernate.validator.constraints.NotEmpty
 
 @Entity
-class Hotel {
+class Hotel(@BeanProperty  @NotEmpty  name: String) {
 
   @Id
   @GeneratedValue
   @BeanProperty
   var id: Long = _
 
-  @BeanProperty
-  @NotEmpty
-  var name: String = _
 
 }

@@ -1,4 +1,4 @@
-package com.web
+package scala.web
 
 import java.lang.Long
 import javax.validation.Valid

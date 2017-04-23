@@ -1,3 +1,3 @@
 = spring-boot-scala
-A sample com.web application using spring-boot and Scala
+A sample scala.web application using spring-boot and Scala
 
