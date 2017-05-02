@@ -13,11 +13,8 @@ class HotelControllerSpec extends ServiceSpec(classOf[HotelController]) {
 
   it should "generate proper collection of links for given categoryId" in {
     val hotelController = new HotelController(hotelRepository)
-
-    when(hotelRepository.findAll(null)).thenReturn(Array(new Hotel("name")))
-
-
-    val result = hotelController.list(null)
+    //when(hotelRepository.findAll(null)).thenReturn(Array(new Hotel("name")))
+    //val result = hotelController.list(null)
 
 
   }

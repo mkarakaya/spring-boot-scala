@@ -23,9 +23,8 @@ class HotelController @Autowired()(private val hotelRepository: HotelRepository)
 
   @RequestMapping(value = Array("/"), method = Array(RequestMethod.POST))
   def create(@RequestParam("name") name: String) = {
-    val hotel = new Hotel()
-    hotel.name= name
+    val hotel = new Hotel(name)
     hotelRepository.save(hotel)
-    "ok"
+    hotel.getId
   }
 }
