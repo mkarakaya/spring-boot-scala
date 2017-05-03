@@ -1,4 +1,6 @@
 = spring-boot-scala
 
-A sample com.web application using spring-boot and Scala
+A sample web application using spring-boot and Scala
+
+##Features
 
