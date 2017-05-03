@@ -2,6 +2,6 @@
 
 A sample web application using spring-boot and Scala
 
-- Features
+= Features
   - Spring actuator
 
