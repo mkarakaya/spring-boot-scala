@@ -5,5 +5,6 @@ A sample web application using spring-boot and Scala
 Forked from: https://github.com/bijukunjummen/spring-boot-scala-web
 
 = Features
-  - Spring actuator
+  - Spring Boot Actuator
+  - Spring Boot Profiles
 
